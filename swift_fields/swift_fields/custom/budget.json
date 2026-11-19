@@ -1,7 +1,7 @@
 {
  "custom_fields": [],
  "custom_perms": [],
- "doctype": "Packed Item",
+ "doctype": "Budget",
  "links": [],
  "property_setters": [
   {
@@ -9,23 +9,23 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
-   "creation": "2025-08-06 16:40:26.810041",
+   "creation": "2026-03-30 19:51:07.516815",
    "default_value": null,
-   "doc_type": "Packed Item",
+   "doc_type": "Budget",
    "docstatus": 0,
    "doctype_or_field": "DocField",
-   "field_name": "rate",
+   "field_name": "budget_against",
    "idx": 0,
    "is_system_generated": 0,
-   "modified": "2026-07-02 16:06:44.844364",
+   "modified": "2026-05-23 22:58:06.673527",
    "modified_by": "Administrator",
    "module": null,
-   "name": "Packed Item-rate-read_only",
-   "owner": "Administrator",
-   "property": "read_only",
-   "property_type": "Check",
+   "name": "Budget-budget_against-options",
+   "owner": "eng.ahmed@iban.com",
+   "property": "options",
+   "property_type": "Text",
    "row_name": null,
-   "value": "1"
+   "value": "\nCost Center\nProject\nItem\nSales Person"
   }
  ],
  "sync_on_migrate": 1

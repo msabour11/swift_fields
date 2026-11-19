@@ -247,3 +247,44 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+# Fixtures
+# --------
+# SAC custom print formats (exported from sac.iban-erp.com 2026-11-19)
+fixtures = [
+	{
+		"dt": "Print Format",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Customer Visit 3",
+					"Customer Visit2",
+					"material request",
+					"purchase request",
+					"Contracting Quo-1",
+					"Contracting Quo-2",
+					"Quotation Last",
+					"contracting quo",
+					"contracting quo-3",
+					"contracting quo-4",
+					"last",
+					"quotation",
+					"quotation cont",
+					"عرض سعر اللوجستيك",
+					"Contracting Invoice 3_2",
+					"LOgistic 3",
+					"Sac Tax Invoice",
+					"Contract",
+					"No price",
+					"No price2",
+					"WITH PRICE",
+					"price driver details",
+					"with items",
+					"بوليصه",
+				],
+			]
+		],
+	},
+]
